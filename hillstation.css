@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    color: #ff6612;
+}
+
+a:hover {
+    color: #ff6612;
+}
+
+i {
+    vertical-align: middle;
+}
+
+.main-nav {
+    margin-top: 80px;
+}
+
+.main-nav a {
+    color: grey;
+
+}
+
+#vl {
+    border-right: 1px solid #ff6612;
+    padding: 20px;
+    line-height: 5px;
+}

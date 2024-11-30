@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    color: #ff6612;
+}
+
+li span {
+    color: gray;
+}
+
+p {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    color: #ff6612;
+}
+
+a:hover {
+    color: #ff6612;
+}
+
+i {
+    vertical-align: middle;
+}

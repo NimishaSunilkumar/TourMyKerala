@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.video-background-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.video-background-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-background-container h1 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 90px;
+}
+
+.mainpara {
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.video-background-container a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.navbar {
+    z-index: 1;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item {
+    padding: 40px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.navbar:hover {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: orangered;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    font-weight: bold;
+
+}
+
+.main-row {
+    background-color: #42485a;
+    width: 100%;
+    height: 30vh;
+}
+
+#row1 {
+
+
+
+    border-radius: 20px;
+    margin-left: 200px;
+    border: 2px solid solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#row1 a:hover {
+    color: #ff6612;
+}
+
+#row2 h6,
+p {
+    color: white;
+}
+
+#row2 h6 i {
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.overveiw h2 {
+    font-weight: bold;
+
+}
+
+.overveiw ul {
+    list-style: none;
+}
+
+.overveiw ul li {
+    padding: 10px;
+    color: grey;
+}
+
+ul.top10 {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+ul.top10 li {
+    color: #ff6612;
+
+}
+
+ul.top10 li span {
+    color: gray;
+}
+
+.table-responsive {
+    overflow: auto;
+}
+
+#customers {
+    font-family: 'Lato', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+th {
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    font-family: 'SFProDisplay-Regular';
+    font-size: 15px;
+    line-height: 23px;
+    color: #62637c;
+
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.timetovisit {
+    padding: 30px;
+}
+
+.timetovisit p {
+    padding-left: 10px;
+
+    color: #62637c;
+}
+
+.timetovisit h6 {
+    font-weight: 20px;
+    font-size: large;
+}
+
+.timetovisit h6 i {
+    color: #ff6612;
+    font-size: 40px;
+    vertical-align: middle;
+    padding-right: 10px;
+
+}
+
+.reach {
+    padding: 30px;
+}
+
+.reach p {
+    padding-left: 10px;
+
+    color: #62637c;
+}
+
+.reach h6 {
+    font-weight: 20px;
+    font-size: large;
+}
+
+.reach h6 i {
+    color: #ff6612;
+    font-size: 60px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.destinations {
+    padding: 30px;
+
+}
+
+.faq {
+    padding: 30px;
+}
+
+.accordion {
+    b
+}
+
+.travel-information-at-glance-main {
+    width: 100%;
+    float: left;
+    background: #fef9f4;
+    position: relative;
+    z-index: 111;
+    padding: 25px 0;
+}
+
+.travel-information-at-glance {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.travel-information-at-glance-in {
+    float: left;
+    width: 25%;
+}
+
+.travel-information-at-glance-in h3 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3d3a34;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.travel-information-at-glance-in ul li a {
+    font-size: 14px;
+    font-family: Lato;
+
+    line-height: 27px;
+    font-weight: 400;
+    color: #3d3a34;
+
+}

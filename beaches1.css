@@ -1,0 +1,45 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    color: rgb(58, 56, 56);
+}
+.cardtransform:hover{
+    transform: scale(0.9);
+}
+.reach{
+    font-size:50px;
+    color: #ff6612;
+    border: 1px solid #ff6612;
+    border-radius: 50%;
+    padding: 30px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.reach:hover{
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    color: #ff6612;
+}
+a:hover{
+    color: #ff6612;
+}
+i{
+    vertical-align: middle;
+}
